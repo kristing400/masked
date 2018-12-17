@@ -47,24 +47,6 @@ label start:
 
     define menu = nvl_menu
 
-    # menu:
-    #     # $ gui.text_color = #ffffff
-    #     "Which company do I work for?"
-    #     # $ gui.text_color = #000000
-    #
-    #     "Google":
-    #         $ companyName = "Google"
-    #     "Apple":
-    #         $ companyName = "Apple"
-    #     "Uber":
-    #         $ companyName = "Uber"
-    #     "Amazon":
-    #         $ companyName = "Amazon"
-    #     "Microsoft":
-    #         $ companyName = "Microsoft"
-
-
-
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -78,17 +60,7 @@ label start:
     # These display lines of dialogue.
     # Intro to problems/choose problems
 
-    # "I've been working in the tech industry for 2 years now."
-    #
-    # "There are a lot of things I like about the industry, but there are also many things I've been struggling with that are hard to talk about."
-    #
-    # "I didn't feel comfortable talking about these problems with my manager or co-workers."
-    #
-    # "I want to appear as a strong-willed individual. I don't want to show my vulnerability."
-    #
-    # "I don't want to be judged."
-    #
-    # "I came across this online anonymous chatroom recently, I think it would be a good idea to consult other individuals working in the tech industry. <show image: chatroom for techies>"
+
     hide login
     jump startMenu
 
@@ -441,9 +413,6 @@ label work:
 
     intel "Do you think that perhaps as a minority HR or management censors their speech around you?"
 
-    # intel "We are also the company whose CEO supposedly slept with our Chief Diversity Officer who was given a $300M budget to go increase our workforce diversity"
-    #
-    # intel "and are getting sued for firing a bunch of old (white, male) employees two years ago, so could be a one-off f’d up culture and mores."
 label workMenu:
     # show screen my_menu("back yourself up", "Leave this chat", work2, startMenu)
     hide screen inputtext_screen
